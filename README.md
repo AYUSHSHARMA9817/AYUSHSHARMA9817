@@ -2,7 +2,7 @@
 
 # Hi there, I'm Ayush Sharma 👋
 
-### Cybersecurity Researcher | Blockchain Developer | IIT Guwahati
+### Cybersecurity Researcher | Blockchain Developer| Security Tooling | IIT Guwahati
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/ayush-sharma-392323268)
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:ayush.sharma@iitg.ac.in)
