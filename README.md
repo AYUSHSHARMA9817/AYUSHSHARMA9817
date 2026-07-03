@@ -53,8 +53,6 @@ Implemented a **DTLS 1.3 mutual-authentication stack** on a bare-metal RISC-V pl
 - 🔹 Wireshark Packet Analysis
 - 🔹 LiteX + Verilator Simulation
 
-**Repository:** *(Coming Soon)*
-
 ---
 
 ## 🛡️ SolSentry – Solidity Static Security Analyzer
@@ -68,8 +66,6 @@ A modular static analysis framework for Solidity smart contracts that detects co
 - ✅ Missing Access Control
 - ✅ Unsafe ETH Transfer Detection
 - ✅ AST → IR → Detector Pipeline
-
-**Repository:** https://github.com/AYUSHSHARMA9817/SolSentry
 
 ---
 
@@ -86,8 +82,6 @@ Built a compiler frontend and one-pass/two-pass assemblers for a custom instruct
 - Intermediate Representation (IR)
 - Assembly Code Generation
 
-**Repository:** *(Add GitHub Link)*
-
 ---
 
 ## 🎓 Student Portal
@@ -101,9 +95,7 @@ Developed backend APIs for institute course management, enabling students and fa
 - RESTful APIs
 - Database Integration
 - Postman API Testing
-
-**Repository:** *(Add GitHub Link)*
-
+  
 ---
 
 ## 🏫 Institute Management System
@@ -118,8 +110,6 @@ Contributed to testing the student dashboard for an institute-wide management sy
 - Role-Based Access Verification
 - Bug Reporting & Validation
 
-**Repository:** *(Add GitHub Link)*
-
 ---
 
 ## 🏥 Hospital Inventory Management System
@@ -133,8 +123,6 @@ Designed the inventory management module and modeled system architecture using U
 - Entity Relationship Modeling
 - Object-Oriented System Design
 
-**Repository:** *(Add GitHub Link)*
-
 ---
 
 ## 🔏 ECDSA Signature Verification
@@ -146,8 +134,6 @@ Implemented on-chain ECDSA signature verification using the secp256k1 curve for 
 - Signature Verification
 - secp256k1 Cryptography
 - Ethereum Smart Contracts
-
-**Repository:** https://github.com/AYUSHSHARMA9817/ECDSA-Solidity
 
 ---
 
@@ -163,8 +149,6 @@ Completed multiple advanced decentralized application challenges covering modern
 - Stablecoins
 - Zero-Knowledge Voting
 - DAO Development
-
-**Repository:** https://github.com/AYUSHSHARMA9817/Solidity-Advance-projects
 
 ---
 # 🛠️ Tech Stack
@@ -255,7 +239,7 @@ Completed multiple advanced decentralized application challenges covering modern
 
 <div align="center">
 
-<a href="https://linkedin.com/in/ayush-sharma-392323268">
+<a href="https://linkedin.com/in/ayush-sharma-9993942a6">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
