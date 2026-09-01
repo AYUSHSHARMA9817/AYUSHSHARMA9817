@@ -2,13 +2,13 @@
 
 # Hi there 👋, I'm Ayush Sharma
 
-### Software Engineer • Systems Programmer • Cybersecurity Researcher
+### Software Engineer • Cybersecurity Researcher • Systems Programmer
 
 🎓 **B.Tech in Computer Science and Engineering @ IIT Guwahati**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/ayush-sharma-392323268)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://linkedin.com/in/ayush-sharma-9993942a6)
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:ayush.sharma@iitg.ac.in)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?logo=About.me&logoColor=white)](https://ayushsharma9817.github.io)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AYUSHSHARMA9817)
 
 </div>
 
@@ -16,179 +16,127 @@
 
 # 👨‍💻 About Me
 
-- 🎓 B.Tech in **Computer Science & Engineering** at **IIT Guwahati**
-- 🥉 Ranked **3rd among all IITs** at **Inter IIT Tech Meet 14.0 (Cybersecurity Challenge)**
-- 🏆 JEE Advanced **AIR 907**
-- 💻 Passionate about **Systems Programming, Backend Engineering, Compiler Design, and Cybersecurity**
-- 🔐 Interested in **Security Tooling, Smart Contract Security, Embedded Systems, and Post-Quantum Cryptography**
-- 🌱 Currently learning **Backend Development, Distributed Systems, and Advanced Software Engineering**
+- 🎓 B.Tech in **Computer Science & Engineering** at **IIT Guwahati** (CGPA: 8.20)
+- 🥉 Ranked **3rd (Bronze Medal) among 23 IITs** at **Inter IIT Tech Meet 14.0 (Cybersecurity Challenge)**
+- 🏆 **JEE Advanced 2023** AIR 907 | **JEE Mains 2023** AIR 762
+- 💻 **Competitive Programming:** Codeforces Specialist (Max Rating: 1562)
+- 🔐 Passionate about **Systems Programming, Core Cybersecurity, Compiler Design, and Protocol Development**
+- 🌱 Currently learning **Deep Learning for Computer Vision, Speech Processing, and Software Analysis**
 
 ---
 
 # 💼 Experience
 
-### Research Intern – Cybersecurity / Human Factors
+### Cybersecurity Research Intern (Human Factors)
 **Zeron** *(Dec 2025)*
 
-- Designed the **Human-State Exploitability Model (HSEM)** to quantify how cognitive states such as fatigue, rushing, and alert fatigue increase security risks.
-- Developed a behavioral signal taxonomy for mapping user actions to exploitability scores.
-- Built a privacy-preserving synthetic dataset for validating the Human-State Exploitability Score (HSES).
+- Architected the core analysis engine for the **Human Security Exploitability System (HSES)** using Python and FastAPI, calculating real-time cyber-risk scores based on live user inputs.
+- Formulated rule-based algorithms integrating CVE data, CWE frameworks, and custom scoring weights to map behavioral signals to cognitive states (Stress, Fatigue) and predict exploit susceptibility.
+- Engineered synthetic telemetry pipelines and contextual modifiers to automate the validation of exploitability conditions without live enterprise data.
 
 ---
+
 # 🚀 Featured Projects
 
 ---
 
-## 🔐 PQC-DTLS 1.3 for Bare-Metal RISC-V
-**C • RISC-V • DTLS 1.3 • wolfSSL • LiteX • Verilator**
+## 🛡️ PacketGuard – Deep Packet Inspection (DPI) Analyzer
+**C++ • Linux Raw Sockets • Qt6 • CMake • Multithreading**
+
+Engineered a custom Deep Packet Inspection (DPI) engine in C++ utilizing Linux raw sockets (AF_PACKET) to detect TCP anomalies and Layer 7 exploits (SQLi, XSS).
+
+### Highlights
+- 🔹 Payload analysis algorithm calculating Shannon Entropy to identify encrypted malware data exfiltration.
+- 🔹 Thread-safe producer-consumer architecture using `std::mutex` and `poll()` for non-blocking capture.
+- 🔹 Automated deployment via CMake and CPack for sudo-less execution (cap_net_raw).
+- 🔹 Custom GUI built with Qt6.
+
+---
+
+## 🔐 PQC-DTLS 1.3 for Bare-Metal RISC-V IoT Devices (QTrino)
+**C • RISC-V • DTLS 1.3 • wolfCrypt • LiteX • Verilator**
 
 > 🥉 **Ranked 3rd among all IITs at Inter IIT Tech Meet 14.0 (Cybersecurity)**
 
-Implemented a **DTLS 1.3 mutual-authentication stack** on a bare-metal RISC-V platform without an operating system. Integrated **Post-Quantum Kyber KEM** into the DTLS handshake while maintaining protocol compatibility.
+Designed a post-quantum secure DTLS 1.3 channel on a 1MHz RISC-V client integrating ML-KEM-512 and ML-DSA-44 primitives via wolfCrypt.
 
 ### Highlights
-- 🔹 DTLS 1.3 Mutual Authentication
-- 🔹 Kyber KEM Integration
-- 🔹 Bare-Metal Embedded Programming
-- 🔹 Wireshark Packet Analysis
-- 🔹 LiteX + Verilator Simulation
+- 🔹 Post-Quantum Cryptography Integration
+- 🔹 Session Resumption via Pre-Shared Keys (PSK), reducing latency by 3.5x.
+- 🔹 Simulated hardware-software co-design using LiteX and Verilator.
+- 🔹 71% reduction in CPU cycles during reconnection.
 
 ---
 
-## 🛡️ SolSentry – Solidity Static Security Analyzer
-**Python • Solidity • AST • Static Analysis**
+## ⚙️ CxxCover – Clang/LLVM Static Analyzer & Instrumenter
+**C++ • LLVM • Clang AST**
 
-A modular static analysis framework for Solidity smart contracts that detects common security vulnerabilities using compiler-generated ASTs.
+Built a Clang-based C++ coverage instrumenter leveraging AST traversal and `clang::Rewriter` to inject execution-tracking probes at the source-expression level.
 
 ### Features
-- ✅ Reentrancy Detection
-- ✅ Delegatecall Misuse Detection
-- ✅ Missing Access Control
-- ✅ Unsafe ETH Transfer Detection
-- ✅ AST → IR → Detector Pipeline
+- ✅ Expression-level AST traversal
+- ✅ 100% detection of 340 expected logical conditions across a 50-program corpus
+- ✅ Custom runtime utilizing `std::vector` for execution tracking
+- ✅ Source-level condition mapping validation against gcov CFGs
 
 ---
 
-## ⚙️ NanoC Compiler & Assembler
-**C • Flex • Bison • Compiler Design**
+## 🔍 SolSentry – Solidity Program Analysis Framework
+**Python • Solidity • AST Parsing • Gemini AI**
 
-Built a compiler frontend and one-pass/two-pass assemblers for a custom instruction set architecture.
+Built a static analysis pipeline extracting solc ASTs, achieving a 0.93 F1 score for Unchecked Calls and 0.77 F1 (100% recall) for Reentrancy on the SmartBugs dataset.
 
 ### Features
-- Lexical Analysis
-- Syntax Parsing
-- Semantic Analysis
-- Symbol Table Construction
-- Intermediate Representation (IR)
-- Assembly Code Generation
+- ✅ Interactive AI Verification module using Gemini to prune Control Flow Graphs (CFGs)
+- ✅ Semantically filters false positives
+- ✅ Operation-level IRs for rigorous cross-call Checks-Effects-Interactions validations without live EVM execution
 
 ---
 
-## 🎓 Student Portal
-**Java • Spring Boot • REST APIs • SQL**
+## 🌐 SpeedRunEthereum – Advanced EVM Concepts
+**Solidity • Scaffold-ETH 2 • DeFi**
 
-Developed backend APIs for institute course management, enabling students and faculty to efficiently manage academic information.
-
-### Features
-- Course Registration
-- Course Creation & Updates
-- RESTful APIs
-- Database Integration
-- Postman API Testing
-  
----
-
-## 🏫 Institute Management System
-**Software Testing • SQL**
-
-Contributed to testing the student dashboard for an institute-wide management system covering hostel, administration, and student services.
-
-### Responsibilities
-- Functional Testing
-- Dashboard Validation
-- Authentication Testing
-- Role-Based Access Verification
-- Bug Reporting & Validation
-
----
-
-## 🏥 Hospital Inventory Management System
-**Software Design • UML • Object-Oriented Design**
-
-Designed the inventory management module and modeled system architecture using UML diagrams.
-
-### Responsibilities
-- UML Class Diagrams
-- Inventory Workflow Design
-- Entity Relationship Modeling
-- Object-Oriented System Design
-
----
-
-## 🔏 ECDSA Signature Verification
-**Solidity • Cryptography • Ethereum**
-
-Implemented on-chain ECDSA signature verification using the secp256k1 curve for decentralized authentication.
-
-### Features
-- Signature Verification
-- secp256k1 Cryptography
-- Ethereum Smart Contracts
-
----
-
-## 🌐 SpeedRunEthereum Advanced Projects
-**Ethereum • Solidity • Scaffold-ETH 2**
-
-Completed multiple advanced decentralized application challenges covering modern Ethereum development.
+Engineered stateful protocol logic across multiple Solidity builds, implementing core DeFi primitives.
 
 ### Topics Covered
-- ERC20 & ERC721
-- Decentralized Exchange (DEX)
-- Lending Protocols
-- Stablecoins
-- Zero-Knowledge Voting
-- DAO Development
+- Decentralized Exchanges (DEXs)
+- Lending Platforms & Stablecoins
+- Complex ERC20 allowance flows
+- Zero-Knowledge (ZK) privacy-preserving voting flows
 
 ---
+
 # 🛠️ Tech Stack
 
 ### 💻 Programming Languages
 
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 ---
 
-### ⚙️ Backend & Development
+### ⚙️ Frameworks, Tools & OS
 
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![LLVM](https://img.shields.io/badge/LLVM-000000?style=for-the-badge&logo=llvm&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Qt](https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
 ### 🔐 Systems & Security
 
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![GDB](https://img.shields.io/badge/GDB-D40000?style=for-the-badge)
-![TLS](https://img.shields.io/badge/TLS-00599C?style=for-the-badge)
-![DTLS](https://img.shields.io/badge/DTLS-4B0082?style=for-the-badge)
 ![Static Analysis](https://img.shields.io/badge/Static_Analysis-2E8B57?style=for-the-badge)
-
----
-
-### 🧠 Compiler & Embedded
-
-![Flex](https://img.shields.io/badge/Flex-00599C?style=for-the-badge)
-![Bison](https://img.shields.io/badge/Bison-8B4513?style=for-the-badge)
-![RISC--V](https://img.shields.io/badge/RISC--V-283272?style=for-the-badge)
+![Clang AST](https://img.shields.io/badge/Clang_AST-663399?style=for-the-badge)
+![DTLS 1.3](https://img.shields.io/badge/DTLS_1.3-4B0082?style=for-the-badge)
+![wolfSSL](https://img.shields.io/badge/wolfSSL-00599C?style=for-the-badge)
+![RISC-V](https://img.shields.io/badge/RISC--V-283272?style=for-the-badge)
 ![Verilator](https://img.shields.io/badge/Verilator-0F4C81?style=for-the-badge)
 
 ---
@@ -196,10 +144,6 @@ Completed multiple advanced decentralized application challenges covering modern
 # 📊 GitHub Analytics
 
 <div align="center">
-
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=AYUSHSHARMA9817&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github"/>
-
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AYUSHSHARMA9817&layout=compact&theme=github_dark&hide_border=true"/>
 
 </div>
 
@@ -213,25 +157,25 @@ Completed multiple advanced decentralized application challenges covering modern
 
 # 🏆 Achievements
 
-🥉 **Inter IIT Tech Meet 14.0 (Cybersecurity)** — Ranked **3rd among all IITs**
+🥉 **Inter IIT Tech Meet 14.0 (Cybersecurity)** — Rank **3rd (Bronze Medal)** among 23 IITs (2025)
 
-🏅 **JEE Advanced 2023** — AIR **907**
+💻 **Competitive Programming** — Codeforces Specialist (Max Rating: 1562)
 
-🏅 **JEE Main 2023** — AIR **762**
+🏅 **JEE Advanced 2023** — AIR **907** (Among 0.2 million students)
 
-🎓 **B.Tech, Computer Science & Engineering** — IIT Guwahati
+🏅 **JEE Mains 2023** — AIR **762** (Among 1.2 million students)
 
-🎖️ **Google Cybersecurity Professional Certificate**
+🎓 **CBSE Board** — 96.0% in Senior Secondary (2023) | 97.8% in Secondary (2021)
 
 ---
 
 # 🌱 Currently Learning
 
-- Backend Engineering
-- Distributed Systems
-- Software Architecture
-- Advanced DSA & Competitive Programming
-- Machine Learning
+- Deep Learning for Computer Vision
+- Speech Processing
+- Software Analysis
+- Systems Architecture & Optimization
+- Advanced Cryptography
 
 ---
 
@@ -249,10 +193,6 @@ Completed multiple advanced decentralized application challenges covering modern
 
 <a href="https://github.com/AYUSHSHARMA9817">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
-</a>
-
-<a href="https://ayushsharma9817.github.io">
-<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me"/>
 </a>
 
 </div>
